@@ -1,0 +1,58 @@
+.title-text
+{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.content-container
+{margin:0;
+  padding:0;
+  display: flex;
+  
+  height:500px;
+  flex:1;
+  justify-content: center;
+  align-items: top;
+}
+
+.image-contain
+{
+  border-style:solid;
+  object-fit: cover;
+  height:410px;
+  position: relative;
+  
+  
+}
+
+.me
+{
+  width:500px;
+}
+
+.about-kie-box
+{font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom:-150px;
+  right:-30px;
+  color:rgb(0, 0, 0);
+  width:300px;
+  background-color: beige;
+  padding:5px 20px 5px 20px;
+  display: flex;
+  border-style: solid;
+  border-color: wheat;
+  border-width: 5px;
+  display: block;
+  text-align: center;
+
+}
+
+
+.header-me
+{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  padding:5px 5px 5px 5px;
+}
